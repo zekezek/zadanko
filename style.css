@@ -1,6 +1,7 @@
 body{
     background-color: white;
     text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 p{
     color: #a8a8a8;
@@ -77,4 +78,105 @@ button{
     text-align: center;
     margin-top: 60px;
     margin-bottom: 40px;
+}
+@media(max-width: 375px){
+    body{
+        background-color: white;
+        text-align: center;
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+    p{
+        color: #a8a8a8;
+        font-size: 15px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .headerlogo{
+        background-image: url(/images/bg-header-mobile.png);
+        width: 100%;
+        font-size: 50px;
+        color: rgb(119, 173, 38);
+        padding-top: 120px;
+        padding-bottom: 30px;
+        align-items: center;
+    
+    }
+    button{
+        margin: 10px 10px;
+        border-radius: 40px;
+        padding: 15px 40px;
+        color: white;
+        transition: 0.25;
+        border-style: none;
+    }
+    .button1{
+        background-color: rgb(60, 180, 60);
+    }
+    .button1:hover{
+        background-color: rgb(124, 209, 124);
+    }
+       .button2{
+        background-color: blueviolet;
+    }
+    .button2:hover{
+        background-color: rgb(158, 95, 218);
+    }
+    .footer{
+        background-color: lightgray;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 30px;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
+        height: 75%;
+        margin: 25px 25px;
+
+    }
+    .l1{
+        margin: 15px 15px;
+    }
+    .cr{
+        text-align: right;
+        font-size: 35px;
+        color: rgb(119, 173, 38);
+    }
+    .link{
+        color: black;
+        margin-right: 10px;
+    }
+    .s3{
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 75%;
+        height: 75%;
+        flex-direction: column;
+    }
+    .text{
+        margin-left: 80px;
+        margin-right: 50px;
+        margin-top: 60px;
+        text-align: center;
+    }
+    .s4{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 80%;
+    }
+    .s5{
+        display: flex;
+    
+    }
+    .s6{
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
 }
